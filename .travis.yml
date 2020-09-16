@@ -2,7 +2,7 @@ language: php
 php:
  -7.4.9
 
-os: window
+os: linux
 
 before_script:
   - composer install
