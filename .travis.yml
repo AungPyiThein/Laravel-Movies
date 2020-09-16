@@ -12,3 +12,10 @@ before_script:
  
 script:
   - vendor/bin/phpunit
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: pk-pages
