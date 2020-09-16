@@ -1,6 +1,6 @@
 language: php
 php:
- -7.4.9
+ -7.4
 
 os: linux
 
