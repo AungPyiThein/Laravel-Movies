@@ -9,7 +9,7 @@ before_script:
   - composer install
   - cp .env.example .env
   - php artisan key:generate
-  - php artisan serve
+  - php artisan jwt:secret
  
 script:
   - vendor/bin/phpunit
